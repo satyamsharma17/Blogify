@@ -56,6 +56,10 @@ nav .fa-solid {
     display: none;
 }
 
+.nav-items {
+    margin: 0;
+}
+
 /* footer */
 .footer {
     background-color: rgba(4, 9, 30, 0.9);
@@ -115,13 +119,14 @@ nav .fa-solid {
     nav .fa-solid {
         display: block;
         color: white;
-        margin: 10px;
+        margin: 18px;
+        padding-left: 14px;
         font-size: 22px;
         cursor: pointer;
     }
 
     .nav-links ul {
-        padding: 30px;
+        padding: 0px 30px;
     }
 }
 
