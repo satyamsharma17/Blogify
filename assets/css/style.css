@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* navbar */
+nav {
+  padding: 1% 4%;
+  background-color: rgba(4, 9, 30, 0.7);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+}
+
+.nav-links {
+  flex: 1;
+  text-align: right;
+}
+
+.nav-links ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.nav-links ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.nav-links ul li::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #02173b;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+nav .fa-solid {
+  display: none;
+}
+
+/* nav-bar */
+.landing {
+  height: 80vh;
+}
+
+/* footer */
+.footer {
+  background-color: rgba(4, 9, 30, 0.9);
+  width: 100%;
+  color: white;
+  text-align: center;
+  padding: 30px 0;
+}
+
+.footer h4 {
+  margin-bottom: 18px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.footer p {
+    padding: 1px 30px;
+  line-height: 2rem;
+  letter-spacing: 0.8px;
+  text-align: center;
+}
+
+.icons .fa-brands {
+  color: #686d75;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+
+.fa-heart {
+  color: #686d75;
+}
