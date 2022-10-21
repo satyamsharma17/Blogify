@@ -2,6 +2,8 @@
 
 A website to share blogs, articles, & book reviews.
 
+![Cover Image](https://github.com/semikolan-co/Blogify/blob/master/assets/images/Blogify%20Logo%20Black%20Background.png)
+
 ## Maintainer
 
 - [@satyamsharma17](https://www.github.com/satyamsharma17)
