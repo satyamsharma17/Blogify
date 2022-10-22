@@ -36,6 +36,65 @@ https://github.com/semikolan-co/Blogify
 
 Clone the forked repository!
 
+## File Structure
+```
+Blogify
+├── assets\
+│   ├── css\
+│   │   └── style.css
+│   ├── images\
+│   └── svg\
+│
+├── backend\
+│   ├── firebase.js
+│   └── main.js
+│
+├── pages\
+│   ├── services\
+│   │   ├── academic-content.html
+│   │   ├── creative-copywriting.html
+│   │   ├── digital-marketing.html
+│   │   ├── e-commerce.html
+│   │   ├── product-description.html
+│   │   ├── professional-blog.html
+│   │   ├── professional-email.html
+│   │   ├── resume.html
+│   │   ├── review-writing.html
+│   │   ├── social-media.html
+│   │   ├── sop.html
+│   │   └── website-content.html
+│   ├── 404.html
+│   ├── about.html
+│   ├── archive.html
+│   ├── article.html
+│   ├── blog.html
+│   ├── books.html
+│   ├── client-review.html
+│   ├── contact.html
+│   ├── create-account.html
+│   ├── developer.html
+│   ├── feedback.html
+│   ├── free-content.html
+│   ├── gallery.html
+│   ├── hire-me.html
+│   ├── my-story.html
+│   ├── news-letter.html
+│   ├── poem.html
+│   ├── privacy-policy.html
+│   ├── pro-work.html
+│   ├── services.html
+│   ├── settings.html
+│   ├── sign-in.html
+│   ├── sign-up.html
+│   ├── terms-condition.html
+│   ├── updates.html
+│   └── web-content.html
+│
+├── LICENSE
+├── README.md
+└── index.html
+```
+
 ## Contributing
 
 Contributions are always welcome for the HactoberFest 2022!
