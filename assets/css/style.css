@@ -7,20 +7,27 @@
 /* navbar */
 nav {
     padding: 1% 4%;
-    background-color: rgba(4, 9, 30, 0.7);
+    background-color: rgba(4, 9, 30, 0.9);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-nav a {
+.logo{
+    display:inline-block;
+    width:10%;
+}
+.logo a img{
+    width:100%;
+}
+/* nav a {
     text-decoration: none;
     color: white;
     font-weight: 800;
-}
+} */
 
 .nav-links {
-    flex: 1;
+    /* flex: 1; */
     text-align: right;
 }
 
@@ -42,7 +49,7 @@ nav a {
     content: "";
     width: 0%;
     height: 2px;
-    background: #02173b;
+    background: #0d6efd;
     display: block;
     margin: auto;
     transition: 0.5s;
@@ -58,6 +65,8 @@ nav .fa-solid {
 
 .nav-items {
     margin: 0;
+    display:flex;
+    align-items: center;
 }
 
 /* footer */
@@ -81,6 +90,7 @@ nav .fa-solid {
     letter-spacing: 0.8px;
     text-align: center;
 }
+
 
 .icons .fa-brands {
     color: #686d75;
