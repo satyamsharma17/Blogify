@@ -135,8 +135,16 @@ nav .fa-solid {
         cursor: pointer;
     }
 
-    .nav-links ul {
-        padding: 0px 30px;
+    .nav-links ul li {
+        padding: 12px 0;
+    }
+
+    .nav-items {
+      display: block;
+    }
+
+    #menu-btn {
+      background-color: #3652a2;
     }
 }
 
