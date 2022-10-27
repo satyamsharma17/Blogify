@@ -138,6 +138,10 @@ nav .fa-solid {
     .nav-links ul {
         padding: 0px 30px;
     }
+
+    .nav-items {
+      flex-direction: column;
+    }
 }
 
 .landing {
