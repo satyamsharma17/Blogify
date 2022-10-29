@@ -34,7 +34,9 @@
     <section class="header">
       <nav>
         <div class="logo">
-          <a href="index.html"><img src="./assets/images/Blogify Logo Transparent Background.png"></a>
+          <a href="index.html"
+            ><img src="./assets/images/Blogify Logo Transparent Background.png"
+          /></a>
         </div>
         <div class="nav-links" id="navLinks">
           <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
@@ -48,7 +50,9 @@
             <li><a href="./pages/contact.html">CONTACT US</a></li>
             <li>
               <button type="button" class="btn btn-outline-light">
-                <a href="./pages/sign-up.html" style="all: unset;">GET STARTED</a>
+                <a href="./pages/sign-up.html" style="all: unset"
+                  >GET STARTED</a
+                >
               </button>
             </li>
           </ul>
@@ -83,23 +87,66 @@
         </div>
       </div>
     </section>
-
-    <section class="footer">
-      <h4>About Us</h4>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed,
-        consequatur earum asperiores ab molestias placeat tenetur quod fugit
-        quaerat. Magni nostrum magnam sunt vero rem nobis architecto autem enim.
-        Accusantium, voluptatem laudantium?
-      </p>
-
-      <div class="icons">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-twitter"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-linkedin"></i>
+    <footer>
+      <div class="footer_section1">
+        <h1 class="footer__logo">Blogify</h1>
+        <div class="section1__buttoncontainer">
+          <button>
+            <img
+              src="https://flagcdn.com/w40/in.png"
+              alt="indian flag"
+              style="width: 17px"
+            />INDIA
+          </button>
+          <button><i class="fa fa-globe" aria-hidden="true"></i>english</button>
+        </div>
       </div>
-    </section>
+
+      <div class="navigation_container">
+        <div class="link__container">
+          <h5>site menu</h5>
+          <a class="footer__link" href="#">about us</a>
+          <a class="footer__link" href="#">search</a>
+          <a class="footer__link" href="#">forum</a>
+          <a class="footer__link" href="#">contact us</a>
+        </div>
+
+        <div class="link__container">
+          <h5>more</h5>
+          <a class="footer__link" href="#">more articles</a>
+          <a class="footer__link" href="#">contact us</a>
+          <a class="footer__link" href="#">support us</a>
+          <a class="footer__link" href="#">submit content</a>
+          <a class="footer__link" href="#">work with us</a>
+        </div>
+
+        <div class="link__container">
+          <h5 id="social__links__heading">social links</h5>
+          <div class="social__links_container">
+            <button>
+              <a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a>
+            </button>
+            <button>
+              <a href="#"><i class="fa-solid fa-envelope"></i>Mail</a>
+            </button>
+            <button>
+              <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
+            </button>
+            <button>
+              <a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a>
+            </button>
+            <button>
+              <a href="#"><i class="fa-brands fa-linkedin"></i>Linked In</a>
+            </button>
+          </div>
+        </div>
+      </div>
+      <p class="copyright">
+        By continuing past this page, you agree to our Terms of Service. All
+        trademarks are properties of their respective oweners. 2022 &#169;
+        Blogify. All rights reserved.
+      </p>
+    </footer>
     <script src="backend/main.js"></script>
     <script
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
