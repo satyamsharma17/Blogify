@@ -1,113 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="icon" href="./assets/svg/Alex Brush.svg" />
-    <title>Blogify</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
-      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-  </head>
 
-  <body>
-    <section class="header">
-      <nav>
-        <div class="logo">
-          <a href="index.html"><img src="./assets/images/Blogify Logo Transparent Background.png"></a>
-        </div>
-        <div class="nav-links" id="navLinks">
-          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
-          <ul class="nav-items">
-            <li><a href="index.html">HOME</a></li>
-            <li><a href="./pages/blog.html">BLOG</a></li>
-            <li><a href="./pages/gallery.html">GALLERY</a></li>
-            <li><a href="./pages/article.html">ARTICLE</a></li>
-            <li><a href="./pages/books.html">BOOKS</a></li>
-            <li><a href="./pages/about.html">ABOUT</a></li>
-            <li><a href="./pages/contact.html">CONTACT US</a></li>
-            <li>
-              <button type="button" class="btn btn-outline-light">
-                <a href="./pages/sign-up.html" style="all: unset;">GET STARTED</a>
-              </button>
-            </li>
-          </ul>
-        </div>
-        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
-      </nav>
-    </section>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="./assets/svg/Alex Brush.svg" />
+  <title>Blogify</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
 
-    <!-- landing -->
-    <section class="landing">
-      <div class="container landing" id="home">
-        <div class="row custom-section d-flex align-items-center">
-          <div class="col-12 col-lg-6 landing-text">
-            <h2><span id="spin"></span></h2>
-            <h3 class="landing-tagline">
-              One stop solution for everything your business needs.
-            </h3>
-            <a class="button" href="#">Learn more</a>
-          </div>
-          <div class="col-12 col-lg-6 landing-lottie">
-            <div class="landing-file">
-              <lottie-player
-                src="https://assets10.lottiefiles.com/packages/lf20_nba5s8al.json"
-                background="transparent"
-                speed="1"
-                loop
-                autoplay
-              >
-              </lottie-player>
-            </div>
+<body>
+  <section class="header">
+    <nav>
+      <div class="logo">
+        <a href="index.html"><img src="./assets/images/Blogify Logo Transparent Background.png"></a>
+      </div>
+      <div class="nav-links" id="navLinks">
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+        <ul class="nav-items">
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="./pages/blog.html">BLOG</a></li>
+          <li><a href="./pages/gallery.html">GALLERY</a></li>
+          <li><a href="./pages/article.html">ARTICLE</a></li>
+          <li><a href="./pages/books.html">BOOKS</a></li>
+          <li><a href="./pages/about.html">ABOUT</a></li>
+          <li><a href="./pages/contact.html">CONTACT US</a></li>
+          <li>
+            <button type="button" class="btn btn-outline-light">
+              <a href="./pages/sign-up.html" style="all: unset;">GET STARTED</a>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+    </nav>
+  </section>
+
+  <!-- landing -->
+  <section class="landing">
+    <div class="container landing" id="home">
+      <div class="row custom-section d-flex align-items-center">
+        <div class="col-12 col-lg-6 landing-text">
+          <h2><span id="spin"></span></h2>
+          <h3 class="landing-tagline">
+            One stop solution for everything your business needs.
+          </h3>
+          <a class="button" href="#">Learn more</a>
+        </div>
+        <div class="col-12 col-lg-6 landing-lottie">
+          <div class="landing-file">
+            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_nba5s8al.json" background="transparent"
+              speed="1" loop autoplay>
+            </lottie-player>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <footer class="footer-section" style="font-family: Mont-Regular">
-      <div class="container">
-          <div class="row">
-              <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-                  <h2 class="footer-heading">Blogify</h2>
-                  <p>One stop solution for everything your business needs.</p>
-                  <ul class="ftco-footer-social p-0">
-                      <li class="ftco-animate">
-                          <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span
-                                  class="ion-logo-twitter"></span></a>
-                      </li>
-                      <li class="ftco-animate">
-                          <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span
-                                  class="ion-logo-facebook"></span></a>
-                      </li>
-                      <li class="ftco-animate">
-                          <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span
-                                  class="ion-logo-instagram"></span></a>
-                      </li>
-                  </ul>
-              </div>
-              <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
-                <h2 class="footer-heading">Solutions</h2>
-                <!-- <div class="block-21 mb-4 d-flex">
+  <footer class="footer-section" style="font-family: Mont-Regular">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+          <h2 class="footer-heading">Blogify</h2>
+          <p>One stop solution for everything your business needs.</p>
+          <ul class="ftco-footer-social p-0">
+            <li class="ftco-animate">
+              <a href="#" data-toggle="tooltip" data-placement="top" title="Twitter"><span
+                  class="ion-logo-twitter"></span></a>
+            </li>
+            <li class="ftco-animate">
+              <a href="#" data-toggle="tooltip" data-placement="top" title="Facebook"><span
+                  class="ion-logo-facebook"></span></a>
+            </li>
+            <li class="ftco-animate">
+              <a href="#" data-toggle="tooltip" data-placement="top" title="Instagram"><span
+                  class="ion-logo-instagram"></span></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+          <h2 class="footer-heading">Solutions</h2>
+          <!-- <div class="block-21 mb-4 d-flex">
                 <a class="img mr-4 rounded" style="background-image: url(images/image_1.jpg);"></a>
                 <div class="text">
                   <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
@@ -129,53 +113,69 @@
                   </div>
                 </div>
               </div> -->
-                <ul class="list-unstyled">
-                    <li><a href="" class="py-2 d-block">Services</a></li>
-                    <li><a href="" class="py-2 d-block">Academic Content</a></li>
-                    <li><a href="" class="py-2 d-block">Copywriting</a></li>
-                    <li>
-                        <a href="" class="py-2 d-block">Digital Marketing</a>
-                    </li>
-                    <li><a href="" class="py-2 d-block">Resume Building</a></li>
-                    <li><a href="" class="py-2 d-block">SOP Writing</a></li>
-                </ul>
-            </div>
-            <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
-              <h2 class="footer-heading">Quick Links</h2>
-              <ul class="list-unstyled">
-                  <li><a href="" class="py-2 d-block">Home</a></li>
-                  <li><a href="" class="py-2 d-block">Gallery</a></li>
-                  <li><a href="" class="py-2 d-block">Article</a></li>
-                  <li><a href="" class="py-2 d-block">Book</a></li>
-                  <li><a href="" class="py-2 d-block">About</a></li>
-                  <li><a href="" class="py-2 d-block">Contact</a></li>
-                  <li><a href="" class="py-2 d-block">Get Started</a></li>
-              </ul>
+          <ul class="list-unstyled">
+            <li><a href="" class="py-2 d-block">Services</a></li>
+            <li><a href="" class="py-2 d-block">Academic Content</a></li>
+            <li><a href="" class="py-2 d-block">Copywriting</a></li>
+            <li>
+              <a href="" class="py-2 d-block">Digital Marketing</a>
+            </li>
+            <li><a href="" class="py-2 d-block">Resume Building</a></li>
+            <li><a href="" class="py-2 d-block">SOP Writing</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 pl-lg-5 mb-4 mb-md-0">
+          <h2 class="footer-heading">Quick Links</h2>
+          <ul class="list-unstyled">
+            <li><a href="" class="py-2 d-block">Home</a></li>
+            <li><a href="" class="py-2 d-block">Gallery</a></li>
+            <li><a href="" class="py-2 d-block">Article</a></li>
+            <li><a href="" class="py-2 d-block">Book</a></li>
+            <li><a href="" class="py-2 d-block">About</a></li>
+            <li><a href="" class="py-2 d-block">Contact</a></li>
+            <li><a href="" class="py-2 d-block">Get Started</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-lg-3 mb-4 mb-md-0">
+          <h2 class="footer-heading">Contact Us</h2>
+          <div class="block-23 mb-3">
+            <ul>
+              <li>
+                <span class="icon ion-ios-pin"></span><span class="text">203 Fake St. Mountain View, San
+                  Francisco, California,
+                  USA</span>
+              </li>
+              <li>
+                <a><span class="icon ion-ios-call"></span><span class="text">987-654-3210</span></a>
+              </li>
+              <li>
+                <a><span class="icon ion-ios-send"></span><span class="text">info@yourdomain.com</span></a>
+              </li>
+            </ul>
           </div>
-          
-          </div>
-          <div class="row">
-              <div class="col-md-12 text-center">
-                  <p class="copyright">
-                      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                      Copyright &copy;
-                      <script>
-                          document.write(new Date().getFullYear());
-                      </script>
-                      All rights reserved. | This website is made with
-                      <i class="ion-ios-heart" aria-hidden="true"></i> by
-                      <a class="tdpvista" href="https://semikolan.co" target="_blank">Semikolan</a>.
-                      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                  </p>
-              </div>
-          </div>
+        </div>
       </div>
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="copyright">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            All rights reserved. | This website is made with
+            <i class="ion-ios-heart" aria-hidden="true"></i> by
+            <a class="tdpvista" href="https://semikolan.co" target="_blank">Semikolan</a>.
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
+        </div>
+      </div>
+    </div>
   </footer>
-    <script src="backend/main.js"></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <script src="backend/main.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
